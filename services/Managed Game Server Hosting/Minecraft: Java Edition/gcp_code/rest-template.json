@@ -1,0 +1,92 @@
+{
+  "creationTimestamp": "2024-12-27T22:57:21.488-08:00",
+  "description": "",
+  "id": "3026756438354698174",
+  "kind": "compute#instanceTemplate",
+  "name": "mgsh-minecraft-java-edition-base-v2412280654",
+  "properties": {
+    "confidentialInstanceConfig": {
+      "enableConfidentialCompute": false
+    },
+    "description": "",
+    "scheduling": {
+      "onHostMaintenance": "MIGRATE",
+      "provisioningModel": "STANDARD",
+      "automaticRestart": true,
+      "preemptible": false
+    },
+    "tags": {},
+    "disks": [
+      {
+        "type": "PERSISTENT",
+        "deviceName": "mgsh-minecraft-java-edition-base-v2412280654",
+        "autoDelete": false,
+        "index": 0,
+        "boot": true,
+        "kind": "compute#attachedDisk",
+        "mode": "READ_WRITE",
+        "initializeParams": {
+          "sourceImage": "projects/debian-cloud/global/images/debian-12-bookworm-v20241210",
+          "diskType": "pd-ssd",
+          "diskSizeGb": "25"
+        }
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "stackType": "IPV4_ONLY",
+        "name": "nic0",
+        "network": "projects/termina-one-templates/global/networks/default",
+        "accessConfigs": [
+          {
+            "name": "External NAT",
+            "type": "ONE_TO_ONE_NAT",
+            "kind": "compute#accessConfig",
+            "networkTier": "PREMIUM"
+          }
+        ],
+        "kind": "compute#networkInterface"
+      }
+    ],
+    "reservationAffinity": {
+      "consumeReservationType": "ANY_RESERVATION"
+    },
+    "canIpForward": true,
+    "keyRevocationActionType": "NONE",
+    "machineType": "e2-medium",
+    "metadata": {
+      "fingerprint": "E8GCRU5I6v4=",
+      "kind": "compute#metadata",
+      "items": [
+        {
+          "value": "true",
+          "key": "enable-oslogin"
+        },
+        {
+          "value": "true",
+          "key": "enable-oslogin-2fa"
+        }
+      ]
+    },
+    "shieldedVmConfig": {
+      "enableSecureBoot": true,
+      "enableVtpm": true,
+      "enableIntegrityMonitoring": true
+    },
+    "shieldedInstanceConfig": {
+      "enableSecureBoot": true,
+      "enableVtpm": true,
+      "enableIntegrityMonitoring": true
+    },
+    "labels": {
+      "game": "minecraft-java-edition",
+      "service": "managed-game-server-hosting",
+      "variant": "base",
+      "version": "v2412280654"
+    },
+    "displayDevice": {
+      "enableDisplay": false
+    }
+  },
+  "selfLink": "projects/termina-one-templates/global/instanceTemplates/mgsh-minecraft-java-edition-base-v2412280654"
+}

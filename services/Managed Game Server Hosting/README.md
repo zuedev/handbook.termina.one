@@ -13,7 +13,7 @@ Our managed game server hosting is designed to provide you with a high-performan
 - **24/7 Monitoring**: Our team of experts will monitor your game server around the clock to ensure that it is always up and running smoothly.
 - **DDoS Protection**: We provide enterprise-grade DDoS protection to keep your game server safe from attacks.
 - **Automatic Backups**: We automatically back up your game server data to ensure that you never lose any progress.
-- **Customization**: We offer a range of customization options to help you tailor your game server hosting to your specific needs.
+- **Customisation**: We offer a range of customisation options to help you tailor your game server hosting to your specific needs.
 - **Support**: Our team of experts is always available to help you with any questions or issues you may have.
 
 Whether you are hosting a small private server for friends or a large public server for thousands of players, our managed game server hosting is the perfect solution for you. Contact us today to learn more about our services and how we can help you host your game server.

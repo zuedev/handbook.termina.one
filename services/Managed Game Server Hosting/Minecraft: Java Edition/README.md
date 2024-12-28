@@ -14,4 +14,4 @@ The minimum resources for a Minecraft: Java Edition server are:
 - 2 TCP ports open (25565 for the server, 25575 for RCON)
 - 1 UDP port open (25565 for the server)
 
-We can use multiple vendors to achieve this basic setup, such as GCP via [bash script](script.bash) or [Terraform](main.tf).
+We can use multiple vendors to achieve this basic setup, such as GCP via [bash script](gcp_code/script.bash) or [Terraform](gcp_code/main.tf).

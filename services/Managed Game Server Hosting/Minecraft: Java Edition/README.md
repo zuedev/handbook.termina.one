@@ -6,7 +6,7 @@
 
 The minimum resources for a Minecraft: Java Edition server are:
 
-- 2 vCPUs @ 4.5 GHz combined clock speed
+- 2 vCPUs @ 4 GHz combined clock speed
 - 4 GB of RAM @ 2400 MHz
 - 25 GB of SSD storage
 - 100+ Mbps of bandwidth

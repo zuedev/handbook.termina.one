@@ -1,6 +1,6 @@
 # Managed Game Server Hosting
 
-> Uncompromising performance backed by enterprise-grade networking will leave your players with an unforgettable experience.
+> Uncompromising performance backed by enterprise-grade networking that will provide your players with an unforgettable experience.
 
 ## Abstract
 

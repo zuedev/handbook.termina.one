@@ -1,4 +1,6 @@
-# recipes
+# Termina One Recipes
+
+This repository contains recipes for various products and services that are part of the Termina One offerings. These recipes are used to build and deploy the products and services for our customers and partners to provide a consistent and reliable experience across all deployments.
 
 ## Development
 

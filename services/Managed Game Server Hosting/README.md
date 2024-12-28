@@ -26,4 +26,4 @@ This service follows our [recipes](https://code.termina.one/termina-one/recipes/
 
 Each variant of the managed game server hosting service is designed to meet the specific requirements of hosting different game servers efficiently. The following games are supported:
 
-- [Minecraft: Java Edition](Minecraft: Java Edition)
+- [Minecraft: Java Edition](./Minecraft:%20Java%20Edition/)
